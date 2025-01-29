@@ -23,7 +23,7 @@ while should_continue:
                 end_text += alphabets[new_position]
             else:
                 end_text += char
-        print(f"The {cipher_direction}d text is {end_text}")
+        print(f"The {cipher_direction}d text is {end_text}. You message is safe.")
 
     cesar(start_text=text, shift_amount=shift, cipher_direction=direction)
     
