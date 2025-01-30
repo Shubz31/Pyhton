@@ -11,7 +11,7 @@ def display_menu():
     print(" 10. Exit \n")
     
 def main():
-    dictName = {1: 'Java', 2: 'Web Development', 3: 'Pyhton'}
+    dictName = {1: 'Java', 2: 'Web-Development', 3: 'Pyhton'}
     while(True):
         display_menu()
         choice = int(input("Enter your Choice: "))
