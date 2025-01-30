@@ -1,14 +1,14 @@
 def display_menu():
-    print("1.Display the Dictionary")
-    print("2. Print a specific Element")
-    print("3. OverWritten Dictionary")
-    print("4. Print Keys")
-    print("5. Print Values")
-    print("6. Print Items")
-    print("7. Pop(delete) Element")
-    print("8. Pop Item")
-    print("9. Clear Dictionary")
-    print("10. Exit")
+    print("\n 1. Display the Dictionary")
+    print(" 2. Print a specific Element")
+    print(" 3. OverWritten Dictionary")
+    print(" 4. Print Keys")
+    print(" 5. Print Values")
+    print(" 6. Print Items")
+    print(" 7. Pop(delete) Element")
+    print(" 8. Pop Item")
+    print(" 9. Clear Dictionary")
+    print(" 10. Exit \n")
     
 def main():
     dictName = {1: 'Java', 2: 'Web Development', 3: 'Pyhton'}
@@ -37,9 +37,9 @@ def main():
             print(dictName.items())
         
         elif choice == 7:
-            poped = dictName['Third']
-            print('Poped_Element: ', poped)
-            print('Updated List: ', dictName)
+            popedvalue = dictName.pop('Third')
+            print('Value:', popedvalue)
+            print('Dictionary:', dictName)
             
         elif choice == 8:
             poped_item = dictName.popitem()
